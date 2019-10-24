@@ -1,0 +1,160 @@
+
+
+html{
+height:100%;
+}
+
+
+body {
+    background:url("rain2.jpg") no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    /* background-color: black */
+    /* background-size: cover; */
+    height: 100%;
+}
+.main {
+   
+    color: white;
+    text-align: center;
+    background-color:black;
+    opacity:0.9;
+    
+}
+.sub {
+    background: black;
+    opacity:0.9;
+    width: 60vw;
+    margin:auto;
+    border-radius: 9px;
+    padding:10px;
+}
+
+.buttons{
+    text-align: center;
+    padding:5px;
+}
+
+.submain {
+    color:white;
+}
+
+#submit {
+    margin: 10px;
+}
+
+#adminhometitle{
+    padding-top: 40px;
+}
+.info {
+    font-family: fantasy;
+    color: black;
+    padding: 20px;
+    width: 80%;
+    background-color:rgba(255, 255, 255, 0.7);
+    opacity: 50%;
+    border-radius: 10px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color:white;
+    border: 3px solid #ccc;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.ip{
+    color:white;
+    
+
+    
+}
+::placeholder {
+    color: white
+}
+.ip{
+    border: 0; padding: 7px 15px; border: 1px solid #ccc; position: relative; background: transparent;}
+.ip ~ .focus-bg:before,
+.ip ~ .focus-bg:after{content: ""; position: absolute; left: 50%; top: 50%; width: 0; height: 0; background-color: #ededed; transition: 0.3s; z-index: -1;}
+.ip:focus ~ .focus-bg:before,
+.has-content.ip ~ .focus-bg:before{transition: 0.3s; width: 50%; left: 0; top: 0; height: 100%;}
+.ip ~ .focus-bg:after{left: auto; right: 50%; top: auto; bottom: 50%;}
+.ip:focus ~ .focus-bg:after,
+.has-content.ip ~ .focus-bg:after{transition: 0.3s; width: 50%; height: 100%; bottom: 0; right: 0;}
+.ip ~ label{position: absolute; left: 14px; width: 100%; top: 10px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
+.ip:focus ~ label, .has-content.ip ~ label{top: -18px; left: 0; font-size: 12px; color: #333; transition: 0.3s;}
+
+a {
+    background-color: transparent;
+    color: white;
+    /* padding: 1em 1em; */
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid #ccc;
+  }
+
+  .atag {
+      margin-top: 20px;
+      padding:20px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: center;
+
+  }
+
+  .sub {
+      display:flex;
+      flex-direction: column;
+  }
+
+  .sign {
+    margin: 10px;
+    padding:7px;
+    
+  }
+
+  .admin{
+    margin: 10px;
+    padding:7px;
+  }
+  .surveyor{
+    margin: 10px;
+    padding:7px;
+  }
+  #signinbutton {
+    margin: 10px;
+    padding:7px;
+  }
+
+  .complete {
+    margin: 10px;
+    padding:5px;
+    font-size: 13px;
+  }
+
+  .home {
+    margin: 10px;
+    padding:5px;
+    font-size: 13px;
+  }
+
+  @media (max-width: 600px) {
+    .sub {
+        background: black;
+        opacity:0.9;
+        width: 100%;
+        margin:auto;
+        border-radius: 9px;
+        padding:10px;
+    }
+  }
