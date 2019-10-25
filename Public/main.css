@@ -28,6 +28,12 @@ body {
     margin:auto;
     border-radius: 9px;
     padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+.input-style{
+    align-items: center;
 }
 
 .buttons{
@@ -112,10 +118,6 @@ a {
 
   }
 
-  .sub {
-      display:flex;
-      flex-direction: column;
-  }
 
   .sign {
     margin: 10px;
